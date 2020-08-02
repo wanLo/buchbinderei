@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2 sm:p-4 md:px-6 lg:px-8">
+  <div class="p-4 md:px-6 lg:px-8">
     <article>
       <img
         v-if="_page.image"

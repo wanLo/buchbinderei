@@ -2,12 +2,18 @@
   <div class="flex flex-col space-y-1">
     <NuxtLink to="/">
       <img
-        src="logo ohne slogan.png"
+        src="logo_ohne_slogan.png"
         alt="Startseite"
-        class="bg-white px-4 py-2"
+        class="bg-white px-4 py-2 w-full object-left object-contain rounded"
+        style="max-height: 5rem;"
       />
     </NuxtLink>
-    <div v-for="page of _pages" :key="page.slug" class="bg-white">
+    <div
+      v-for="page of _pages"
+      :key="page.slug"
+      class="rounded"
+      :class="$route.params.slug === page.slug ? 'bg-gray-200' : 'bg-white'"
+    >
       <NuxtLink :to="page.slug">
         <div class="px-4 py-2 break-words">{{ page.shortTitle }}</div>
       </NuxtLink>
