@@ -24,7 +24,11 @@ export default {
   computed: {
     _pages() {
       return this.pages.map((p) => {
-        p.shortTitle = p.slug.charAt(0).toUpperCase() + p.slug.slice(1)
+        if (!p.shortTitle) {
+          if (!p.title)
+            p.shortTitle = p.slug.charAt(0).toUpperCase() + p.slug.slice(1)
+          else p.shortTitle = p.title
+        }
         return p
       })
     },
