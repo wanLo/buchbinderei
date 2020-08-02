@@ -18,10 +18,7 @@ export default {
   },
   computed: {
     _page() {
-      const page = this.page
-      if (!page.title)
-        page.title = page.slug.charAt(0).toUpperCase() + page.slug.slice(1)
-      return page
+      return this.page
     },
   },
 }

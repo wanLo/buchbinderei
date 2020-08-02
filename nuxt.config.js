@@ -14,17 +14,37 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Buchbinderei Meyer Oberlichtenau',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: `og:image`, name: 'og:image', content: 'logo.jpg' },
+      { hid: `twitter:image`, name: 'twitter:image', content: 'logo.jpg' },
+    ],
+    link: [
       {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || '',
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon_16.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon_32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '64x64',
+        href: '/favicon_64.png',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  },
+  /* Loading bar */
+  loading: {
+    color: '#D9183B',
   },
   /*
    ** Global CSS
