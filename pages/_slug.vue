@@ -1,10 +1,26 @@
 <template>
-  <div>
-    <main-menu :pages="mainMenuPages"></main-menu>
-    <hr />
-    <page-content :page="page"></page-content>
-    <hr />
-    <footer-menu :pages="footerPages"></footer-menu>
+  <div class="container mx-auto min-h-screen flex flex-col">
+    <div class="md:flex flex-grow">
+      <main-menu
+        :pages="mainMenuPages"
+        class="hidden md:block w-1/5 mr-1 flex-shrink-0"
+      ></main-menu>
+      <div class="block md:hidden">
+        <nuxt-link to="/">Home</nuxt-link>
+        <nuxt-link to="/menu">Menu</nuxt-link>
+      </div>
+      <page-content
+        :page="page"
+        class="bg-white w-full md:w-4/5"
+      ></page-content>
+    </div>
+    <div class="md:flex mt-1">
+      <div class="hidden md:block w-1/5 mr-1 flex-shrink-0"></div>
+      <footer-menu
+        :pages="footerPages"
+        class="bg-white w-full md:w-4/5"
+      ></footer-menu>
+    </div>
   </div>
 </template>
 

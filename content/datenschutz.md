@@ -6,9 +6,9 @@ shortTitle: Datenschutz
 ---
 Verantwortlich für die Erhebung, Verarbeitung und Nutzung Ihrer personenbezogenen Daten im Sinne von Art. 4 Nr. 7 DSGVO ist
 
-Buchbinderei Heinz Meyer GmbH
-Obere Hauptstraße 41
-09244 Lichtenau
+Buchbinderei Heinz Meyer GmbH  
+Obere Hauptstraße 41  
+09244 Lichtenau  
 Germany
 
 ## Betroffenenrechte: Rechte auf Auskunft, Berichtigung, Sperre, Löschung und Widerspruch

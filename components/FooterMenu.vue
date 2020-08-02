@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <ul>
-      <li v-for="page of _pages" :key="page.slug">
-        <NuxtLink :to="page.slug">
-          <div>
-            {{ page.shortTitle }}
-          </div>
-        </NuxtLink>
-      </li>
-    </ul>
+  <div class="text-right">
+    <div
+      v-for="page of _pages"
+      :key="page.slug"
+      class="width-auto inline-block mr-4 my-2"
+    >
+      <NuxtLink :to="page.slug">
+        {{ page.shortTitle }}
+      </NuxtLink>
+    </div>
   </div>
 </template>
 

@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <ul>
-      <li v-for="page of _pages" :key="page.slug">
-        <NuxtLink :to="page.slug">
-          <div>{{ page.shortTitle }}</div>
-        </NuxtLink>
-      </li>
-    </ul>
+  <div class="flex flex-col space-y-1">
+    <div v-for="page of _pages" :key="page.slug" class="bg-white">
+      <NuxtLink :to="page.slug">
+        <div class="px-4 py-2 shortTitle">{{ page.shortTitle }}</div>
+      </NuxtLink>
+    </div>
   </div>
 </template>
 
@@ -33,3 +31,13 @@ export default {
   },
 }
 </script>
+
+<style>
+.shortTitle {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+</style>
