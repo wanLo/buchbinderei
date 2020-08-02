@@ -2,8 +2,9 @@
 menu: main
 order: 2
 title: Bucheinbände
+published: true
 ---
-Zeitschrifteneinbände in Verlagseinbanddecken oder in von uns gefertigte Buchdecken mit Prägung auf Rücken und Vorderdeckeli
+Zeitschrifteneinbände in Verlagseinbanddecken oder in von uns gefertigte Buchdecken mit Prägung auf Rücken und Vorderdeckel
 
 Beschaffungsservice für fehlenden Zeitschriften und Verlagseinbanddecken
 
@@ -17,4 +18,4 @@ Gästebücher und Alben als individuelle Maßanfertigung
 
 Buchherstellung aus einer Hand - vom Entwurf über Druck und Proof bis zum gebundenen, versandfertigen Produkt
 
-Beratung, Entwurf und Musterfertigung 
+Beratung, Entwurf und Musterfertigung
