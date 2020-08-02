@@ -1,7 +1,12 @@
 <template>
-  <div class="p-2 sm:p-4">
+  <div class="p-2 sm:p-4 md:px-6 lg:px-8">
     <article>
-      <img v-if="_page.image" :src="_page.image" alt="Titelbild" />
+      <img
+        v-if="_page.image"
+        :src="_page.image"
+        alt="Titelbild"
+        class="titelbild mb-4"
+      />
       <h1 class="heading">{{ _page.title }}</h1>
       <nuxt-content :document="_page" />
     </article>
@@ -26,14 +31,12 @@ export default {
 </script>
 
 <style>
+.titelbild {
+  @apply w-full object-contain object-left;
+  max-height: 40vh;
+}
 .nuxt-content p {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  text-align: justify;
-  @apply mb-2;
+  @apply mb-2 break-words;
 }
 .nuxt-content a {
   color: #d9183b;

@@ -1,8 +1,15 @@
 <template>
   <div class="flex flex-col space-y-1">
+    <NuxtLink to="/">
+      <img
+        src="logo ohne slogan.png"
+        alt="Startseite"
+        class="bg-white px-4 py-2"
+      />
+    </NuxtLink>
     <div v-for="page of _pages" :key="page.slug" class="bg-white">
       <NuxtLink :to="page.slug">
-        <div class="px-4 py-2 shortTitle">{{ page.shortTitle }}</div>
+        <div class="px-4 py-2 break-words">{{ page.shortTitle }}</div>
       </NuxtLink>
     </div>
   </div>
@@ -31,13 +38,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.shortTitle {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-</style>

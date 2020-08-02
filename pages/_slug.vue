@@ -1,5 +1,7 @@
 <template>
-  <div class="container mx-auto min-h-screen flex flex-col">
+  <div
+    class="container mx-auto min-h-screen flex flex-col py-4 sm:py-6 md:py-8 px-2"
+  >
     <div class="md:flex flex-grow">
       <main-menu
         :pages="mainMenuPages"
@@ -43,6 +45,7 @@ export default {
       .where({ menu: 'main' })
       .only(['title', 'shortTitle', 'slug'])
       .sortBy('order', 'asc')
+      .skip(1)
       .fetch()
     const footerPages = await $content('')
       .where({ menu: 'footer' })

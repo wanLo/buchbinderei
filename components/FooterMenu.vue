@@ -3,7 +3,7 @@
     <div
       v-for="page of _pages"
       :key="page.slug"
-      class="width-auto inline-block mr-4 my-2"
+      class="width-auto inline-block mr-4 md:mr-6 lg:mr-8 my-2"
     >
       <NuxtLink :to="page.slug">
         {{ page.shortTitle }}

@@ -9,5 +9,4 @@ shortTitle: Stanzungen
 - Treppenregister
 - Ober- und Unterregister
 - Daumenregister
-
-Stanzungen mit individuellen Stanzmotiven in Umschläge, Karten, fertige Buchdeckel etc.
+- Stanzungen mit individuellen Stanzmotiven in Umschläge, Karten, fertige Buchdeckel etc.
