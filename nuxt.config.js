@@ -14,6 +14,9 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
+    htmlAttrs: {
+      lang: 'de',
+    },
     title: 'Buchbinderei Meyer Oberlichtenau',
     meta: [
       { charset: 'utf-8' },
@@ -44,7 +47,7 @@ export default {
   },
   /* Loading bar */
   loading: {
-    color: '#D9183B',
+    color: '#718096',
   },
   /*
    ** Global CSS

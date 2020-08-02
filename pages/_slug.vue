@@ -4,11 +4,12 @@
   >
     <div class="md:flex flex-grow">
       <main-menu
+        v-if="!showMenu"
         :pages="mainMenuPages"
         class="hidden md:block w-1/5 mr-1 flex-shrink-0"
       ></main-menu>
       <div class="block md:hidden flex bg-white mb-1 rounded">
-        <nuxt-link to="/" class="flex-none">
+        <nuxt-link to="/" class="flex-none" @click="showMenu = false">
           <img
             src="logo_ohne_slogan.png"
             alt="Startseite"
@@ -17,18 +18,25 @@
           />
         </nuxt-link>
         <div class="flex-grow"></div>
-        <nuxt-link to="/menu" class="my-auto px-4 flex-none">
+        <button class="my-auto px-4 flex-none" @click="showMenu = !showMenu">
           <div class="bg-gray-600 w-8 h-1 mb-1"></div>
           <div class="bg-gray-600 w-8 h-1 mb-1"></div>
           <div class="bg-gray-600 w-8 h-1"></div>
-        </nuxt-link>
+        </button>
       </div>
+      <main-menu
+        v-if="showMenu"
+        :pages="completeMenuPages"
+        :show-logo="false"
+        @close-menu="showMenu = false"
+      ></main-menu>
       <page-content
+        v-if="!showMenu"
         :page="page"
         class="bg-white w-full md:w-4/5 rounded"
       ></page-content>
     </div>
-    <div class="md:flex mt-1">
+    <div v-if="!showMenu" class="md:flex mt-1">
       <div class="hidden md:block w-1/5 mr-1 flex-shrink-0"></div>
       <footer-menu
         :pages="footerPages"
@@ -64,7 +72,13 @@ export default {
       .only(['title', 'shortTitle', 'slug'])
       .sortBy('order', 'asc')
       .fetch()
-    return { page, mainMenuPages, footerPages }
+    const completeMenuPages = mainMenuPages.concat(footerPages)
+    return { page, mainMenuPages, footerPages, completeMenuPages }
+  },
+  data() {
+    return {
+      showMenu: false,
+    }
   },
   head() {
     return {
