@@ -2,7 +2,7 @@
   <div class="flex flex-col space-y-1">
     <NuxtLink v-if="showLogo" to="/">
       <img
-        src="logo_ohne_slogan.png"
+        src="titel.png"
         alt="Startseite"
         class="bg-white px-4 py-2 w-full object-left object-contain rounded"
         style="max-height: 5rem;"

@@ -11,7 +11,7 @@
       <div class="block md:hidden flex bg-white mb-1 rounded">
         <nuxt-link to="/" class="flex-none" @click="showMenu = false">
           <img
-            src="logo_ohne_slogan.png"
+            src="titel.png"
             alt="Startseite"
             class="px-4 py-2"
             style="max-height: 5rem;"

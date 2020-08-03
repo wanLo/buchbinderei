@@ -2,6 +2,7 @@
 menu: main
 order: 10
 title: Buchreparaturen und Restaurierungen
+image: reparaturen/1.jpg
 ---
 **Ein Buch zu reparieren bedeutet**, es wieder gebrauchsfähig zu machen.
 
@@ -19,3 +20,9 @@ Kein Verfälschen durch Erneuern.
 Wiederherstellen statt ersetzen.
 
 Egal aber ob es sich um eine Reparatur oder eine Restaurierung handelt - wir sind immer bemüht, den **historischen Charme und die Ästhetik Ihres Buches zu erhalten**. 
+
+![](reparaturen/2.jpg)
+![](reparaturen/3.jpg)
+![](reparaturen/4.jpg)
+![](reparaturen/5.jpg)
+![](reparaturen/6.jpg)
