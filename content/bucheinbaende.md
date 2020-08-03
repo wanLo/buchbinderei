@@ -3,6 +3,7 @@ menu: main
 order: 2
 title: Bucheinbände
 published: true
+image: einbaende/1.jpg
 ---
 Zeitschrifteneinbände in Verlagseinbanddecken oder in von uns gefertigte Buchdecken mit Prägung auf Rücken und Vorderdeckel
 
@@ -24,4 +25,8 @@ Zeitschrifteneinbände in Verlagseinbanddecken oder in von uns gefertigte Buchde
 
 > Vom Unikat zur Auflage
 
-![Logo der Buchbinderei]({{site.baseurl}}/logo.jpg)
+![](einbaende/2.jpg)
+![](einbaende/3.jpg)
+![](einbaende/4.jpg)
+![](einbaende/5.jpg)
+![](einbaende/6.jpg)

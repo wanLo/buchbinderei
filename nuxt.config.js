@@ -47,7 +47,7 @@ export default {
   },
   /* Loading bar */
   loading: {
-    color: '#718096',
+    color: '#616161',
   },
   /*
    ** Global CSS

@@ -11,7 +11,7 @@
       <div class="block md:hidden flex bg-white mb-1 rounded">
         <nuxt-link to="/" class="flex-none" @click="showMenu = false">
           <img
-            src="logo_ohne_slogan.png"
+            src="titel.png"
             alt="Startseite"
             class="px-4 py-2"
             style="max-height: 5rem;"
@@ -19,9 +19,9 @@
         </nuxt-link>
         <div class="flex-grow"></div>
         <button class="my-auto px-4 flex-none" @click="showMenu = !showMenu">
-          <div class="bg-gray-600 w-8 h-1 mb-1"></div>
-          <div class="bg-gray-600 w-8 h-1 mb-1"></div>
-          <div class="bg-gray-600 w-8 h-1"></div>
+          <div class="bg-warmgray-dark w-8 h-1 mb-1"></div>
+          <div class="bg-warmgray-dark w-8 h-1 mb-1"></div>
+          <div class="bg-warmgray-dark w-8 h-1"></div>
         </button>
       </div>
       <main-menu

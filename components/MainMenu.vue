@@ -2,7 +2,7 @@
   <div class="flex flex-col space-y-1">
     <NuxtLink v-if="showLogo" to="/">
       <img
-        src="logo_ohne_slogan.png"
+        src="titel.png"
         alt="Startseite"
         class="bg-white px-4 py-2 w-full object-left object-contain rounded"
         style="max-height: 5rem;"
@@ -20,7 +20,9 @@
       v-for="page of _pages"
       :key="page.slug"
       class="rounded"
-      :class="$route.params.slug === page.slug ? 'bg-gray-200' : 'bg-white'"
+      :class="
+        $route.params.slug === page.slug ? 'bg-warmgray-light' : 'bg-white'
+      "
     >
       <NuxtLink :to="page.slug" @click="$emit('close-menu')">
         <div class="px-4 py-2 break-words">{{ page.shortTitle }}</div>
