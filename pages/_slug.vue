@@ -18,7 +18,11 @@
           />
         </nuxt-link>
         <div class="flex-grow"></div>
-        <button class="my-auto px-4 flex-none" @click="showMenu = !showMenu">
+        <button
+          class="my-auto px-4 flex-none"
+          aria-label="Menü öffnen"
+          @click="showMenu = !showMenu"
+        >
           <div class="bg-warmgray-dark w-8 h-1 mb-1"></div>
           <div class="bg-warmgray-dark w-8 h-1 mb-1"></div>
           <div class="bg-warmgray-dark w-8 h-1"></div>
