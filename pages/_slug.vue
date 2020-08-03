@@ -9,7 +9,7 @@
         class="hidden md:block w-1/5 mr-1 flex-shrink-0"
       ></main-menu>
       <div class="block md:hidden flex bg-white mb-1 rounded">
-        <nuxt-link to="/" class="flex-none" @click="showMenu = false">
+        <nuxt-link to="/" class="flex-none" @click.native="showMenu = false">
           <img
             src="titel.png"
             alt="Startseite"

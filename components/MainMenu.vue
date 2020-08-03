@@ -12,7 +12,8 @@
       v-else
       class="px-4 py-2 bg-white rounded"
       to="/"
-      @click="$emit('close-menu')"
+      :class="$route.path === '/' ? 'bg-warmgray-light' : 'bg-white'"
+      @click.native="$emit('close-menu')"
     >
       Startseite
     </NuxtLink>
@@ -24,7 +25,7 @@
         $route.params.slug === page.slug ? 'bg-warmgray-light' : 'bg-white'
       "
     >
-      <NuxtLink :to="page.slug" @click="$emit('close-menu')">
+      <NuxtLink :to="page.slug" @click.native="$emit('close-menu')">
         <div class="px-4 py-2 break-words">{{ page.shortTitle }}</div>
       </NuxtLink>
     </div>
