@@ -1,3 +1,7 @@
+# ignore photos etc. from /static
+
+/static
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
