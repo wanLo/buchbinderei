@@ -19,6 +19,7 @@ module.exports = {
         },
         cd: {
           red: '#d9183b',
+          darkred: '#99112A',
         },
       },
     },

@@ -1,5 +1,8 @@
 <template>
-  <page-content :page="page" class="w-full md:w-4/5 rounded"></page-content>
+  <page-content
+    :page="page"
+    class="w-full md:w-4/5 rounded ml-16"
+  ></page-content>
 </template>
 
 <script>

@@ -1,13 +1,17 @@
 <template>
-  <div class="p-4 md:px-6 lg:px-8">
+  <div>
     <article>
       <img
         v-if="_page.image"
         :src="_page.image"
         alt="Titelbild"
-        class="titelbild mb-4"
+        class="w-full object-cover pr-64 mb-12"
       />
-      <h1 class="heading">{{ _page.title }}</h1>
+      <h1
+        class="text-6xl text-cd-red uppercase font-light tracking-widest mb-12"
+      >
+        {{ _page.title }}
+      </h1>
       <nuxt-content :document="_page" />
     </article>
   </div>
@@ -31,32 +35,41 @@ export default {
 </script>
 
 <style>
-.titelbild,
-.nuxt-content img {
-  float: right;
-  margin: 0.5rem;
-  width: calc(33% - 1rem);
+.nuxt-content p > img {
+  @apply -ml-64 my-16 w-full;
 }
 .nuxt-content p,
 .nuxt-content li {
-  @apply mb-2 break-words w-2/3;
+  @apply break-words ml-64;
   @apply text-gray-900;
+}
+.nuxt-content p {
+  @apply mb-6;
 }
 .nuxt-content a {
   @apply text-cd-red;
 }
-.heading,
 .nuxt-content h1 {
-  @apply text-xl font-bold mb-2;
+  @apply text-3xl font-bold mb-6;
   @apply text-gray-800;
 }
 .nuxt-content h2 {
-  @apply text-lg font-bold mb-2;
+  @apply text-xl font-bold mb-6 mt-12 pl-56;
+  @apply text-gray-800;
 }
 .nuxt-content ul {
-  @apply mb-2;
+  @apply mb-6;
+  @apply list-disc pl-4;
 }
-.nuxt-content blockquote {
-  @apply text-3xl italic text-gray-800;
+.nuxt-content ol {
+  @apply mb-6;
+  @apply list-decimal pl-4;
+}
+.nuxt-content li {
+  @apply pl-2;
+}
+.nuxt-content blockquote > p {
+  @apply ml-0 my-16;
+  @apply text-5xl italic font-light text-gray-800;
 }
 </style>
