@@ -34,11 +34,7 @@
         :show-logo="false"
         @close-menu="showMenu = false"
       ></main-menu>
-      <page-content
-        v-if="!showMenu"
-        :page="page"
-        class="bg-white w-full md:w-4/5 rounded"
-      ></page-content>
+      <nuxt-child v-if="!showMenu"></nuxt-child>
     </div>
     <div v-if="!showMenu" class="md:flex mt-1">
       <div class="hidden md:block w-1/5 mr-1 flex-shrink-0"></div>
@@ -53,18 +49,13 @@
 <script>
 import MainMenu from '~/components/MainMenu'
 import FooterMenu from '~/components/FooterMenu'
-import PageContent from '~/components/PageContent'
 
 export default {
   components: {
     MainMenu,
-    PageContent,
     FooterMenu,
   },
   async asyncData({ $content, params }) {
-    const slug = !params.slug ? 'index' : params.slug
-    const page = await $content('', slug).fetch()
-    if (!page.title) page.title = slug.charAt(0).toUpperCase() + slug.slice(1)
     const mainMenuPages = await $content('')
       .where({ menu: 'main' })
       .only(['title', 'shortTitle', 'slug'])
@@ -77,40 +68,11 @@ export default {
       .sortBy('order', 'asc')
       .fetch()
     const completeMenuPages = mainMenuPages.concat(footerPages)
-    return { page, mainMenuPages, footerPages, completeMenuPages }
+    return { mainMenuPages, footerPages, completeMenuPages }
   },
   data() {
     return {
       showMenu: false,
-    }
-  },
-  head() {
-    return {
-      title:
-        this.page.slug === 'index'
-          ? 'Buchbinderei Meyer Oberlichtenau'
-          : this.page.title,
-      titleTemplate:
-        this.page.slug === 'index'
-          ? '%s'
-          : '%s - Buchbinderei Meyer Oberlichtenau',
-      meta: [
-        {
-          hid: `description`,
-          name: 'description',
-          content: this.page.description,
-        },
-        {
-          hid: `og:image`,
-          name: 'og:image',
-          content: this.page.image,
-        },
-        {
-          hid: `twitter:image`,
-          name: 'twitter:image',
-          content: this.page.image,
-        },
-      ],
     }
   },
 }
