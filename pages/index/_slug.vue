@@ -1,7 +1,7 @@
 <template>
   <page-content
     :page="page"
-    class="w-full md:w-4/5 rounded ml-16"
+    class="w-full md:w-4/5 rounded md:ml-8 lg:ml-16"
   ></page-content>
 </template>
 
