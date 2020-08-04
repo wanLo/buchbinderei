@@ -31,12 +31,16 @@ export default {
 </script>
 
 <style>
-.titelbild {
-  @apply w-full object-contain object-left;
-  max-height: 40vh;
+.titelbild,
+.nuxt-content img {
+  float: right;
+  margin: 0.5rem;
+  width: calc(33% - 1rem);
 }
-.nuxt-content p {
-  @apply mb-2 break-words;
+.nuxt-content p,
+.nuxt-content li {
+  @apply mb-2 break-words w-2/3;
+  @apply text-gray-900;
 }
 .nuxt-content a {
   @apply text-cd-red;
@@ -44,11 +48,15 @@ export default {
 .heading,
 .nuxt-content h1 {
   @apply text-xl font-bold mb-2;
+  @apply text-gray-800;
 }
 .nuxt-content h2 {
   @apply text-lg font-bold mb-2;
 }
 .nuxt-content ul {
   @apply mb-2;
+}
+.nuxt-content blockquote {
+  @apply text-3xl italic text-gray-800;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col space-y-1">
+  <div class="flex flex-col space-y-1 text-gray-900">
     <NuxtLink v-if="showLogo" to="/">
       <img
         src="titel.png"
