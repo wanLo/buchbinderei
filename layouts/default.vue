@@ -6,6 +6,6 @@
 
 <style>
 html {
-  @apply bg-warmgray;
+  @apply bg-warmwhite;
 }
 </style>

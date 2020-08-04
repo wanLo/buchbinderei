@@ -1,8 +1,5 @@
 <template>
-  <page-content
-    :page="page"
-    class="bg-white w-full md:w-4/5 rounded"
-  ></page-content>
+  <page-content :page="page" class="w-full md:w-4/5 rounded"></page-content>
 </template>
 
 <script>

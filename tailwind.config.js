@@ -14,6 +14,12 @@ module.exports = {
           dark: '#a1a1a1',
           darker: '#616161',
         },
+        warmwhite: {
+          default: '#fdfdfb',
+        },
+        cd: {
+          red: '#d9183b',
+        },
       },
     },
   },

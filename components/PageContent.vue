@@ -39,7 +39,7 @@ export default {
   @apply mb-2 break-words;
 }
 .nuxt-content a {
-  color: #d9183b;
+  @apply text-cd-red;
 }
 .heading,
 .nuxt-content h1 {

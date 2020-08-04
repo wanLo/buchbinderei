@@ -4,15 +4,15 @@
       <img
         src="titel.png"
         alt="Startseite"
-        class="bg-white px-4 py-2 w-full object-left object-contain rounded"
+        class="px-4 py-2 w-full object-left object-contain rounded"
         style="max-height: 5rem;"
       />
     </NuxtLink>
     <NuxtLink
       v-else
-      class="px-4 py-2 bg-white rounded"
+      class="px-4 py-2 rounded"
       to="/"
-      :class="$route.path === '/' ? 'bg-warmgray-light' : 'bg-white'"
+      :class="$route.path === '/' ? 'bg-warmgray-light' : 'bg-none'"
       @click.native="$emit('close-menu')"
     >
       Startseite
@@ -22,7 +22,7 @@
       :key="page.slug"
       class="rounded"
       :class="
-        $route.params.slug === page.slug ? 'bg-warmgray-light' : 'bg-white'
+        $route.params.slug === page.slug ? 'bg-warmgray-light' : 'border-none'
       "
     >
       <NuxtLink :to="page.slug" @click.native="$emit('close-menu')">
