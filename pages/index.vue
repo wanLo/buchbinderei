@@ -1,13 +1,13 @@
 <template>
-  <div
-    class="container mx-auto min-h-screen flex flex-col py-4 sm:py-6 md:py-8 px-2"
-  >
+  <div class="container mx-auto min-h-screen flex flex-col px-2">
     <div class="md:flex flex-grow">
-      <main-menu
-        v-if="!showMenu"
-        :pages="mainMenuPages"
-        class="hidden md:block w-1/5 mr-1 flex-shrink-0"
-      ></main-menu>
+      <div class="hidden md:block w-1/5 mr-1 flex-shrink-0">
+        <main-menu
+          v-if="!showMenu"
+          :pages="mainMenuPages"
+          class="sticky top-0 pt-4 sm:pt-6 md:pt-8"
+        ></main-menu>
+      </div>
       <div class="block md:hidden flex mb-1">
         <nuxt-link to="/" class="flex-none" @click.native="showMenu = false">
           <img
@@ -28,15 +28,17 @@
           <div class="bg-warmgray-dark w-8 h-1"></div>
         </button>
       </div>
-      <main-menu
-        v-if="showMenu"
-        :pages="completeMenuPages"
-        :show-logo="false"
-        @close-menu="showMenu = false"
-      ></main-menu>
-      <nuxt-child v-if="!showMenu"></nuxt-child>
+      <transition name="menu-fade">
+        <main-menu
+          v-if="showMenu"
+          :pages="completeMenuPages"
+          :show-logo="false"
+          @close-menu="showMenu = false"
+        ></main-menu>
+      </transition>
+      <nuxt-child v-if="!showMenu" class="pt-4 sm:pt-6 md:pt-8"></nuxt-child>
     </div>
-    <div v-if="!showMenu" class="md:flex mt-1">
+    <div v-if="!showMenu" class="md:flex mt-1 pb-4 sm:pb-6 md:pb-8">
       <div class="hidden md:block w-1/5 mr-1 flex-shrink-0"></div>
       <footer-menu
         :pages="footerPages"
@@ -77,3 +79,15 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.menu-fade-enter-active,
+.menu-fade-leave-active {
+  transition: 0.15s;
+}
+.menu-fade-enter,
+.menu-fade-leave-to {
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+</style>

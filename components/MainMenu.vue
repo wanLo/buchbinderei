@@ -20,13 +20,17 @@
     <div
       v-for="page of _pages"
       :key="page.slug"
-      class="rounded"
+      class="rounded transition-colors ease-in-out duration-500"
       :class="
         $route.params.slug === page.slug ? 'bg-warmgray-light' : 'border-none'
       "
     >
       <NuxtLink :to="page.slug" @click.native="$emit('close-menu')">
-        <div class="px-4 py-2 break-words">{{ page.shortTitle }}</div>
+        <div
+          class="px-4 py-2 break-words hover:text-cd-red transition-colors ease-in-out duration-200"
+        >
+          {{ page.shortTitle }}
+        </div>
       </NuxtLink>
     </div>
   </div>
