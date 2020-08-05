@@ -48,6 +48,7 @@ export default {
     }
   },
   transition: '',
+  scrollToTop: true,
 }
 </script>
 
