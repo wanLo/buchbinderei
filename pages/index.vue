@@ -39,18 +39,25 @@
           v-if="showMenu"
           :pages="completeMenuPages"
           :show-logo="false"
+          class="absolute"
+          style="width: calc(100% - 1rem);"
           @close-menu="showMenu = false"
         ></main-menu>
       </transition>
-      <nuxt-child v-if="!showMenu" class="pt-4 sm:pt-6 md:pt-8"></nuxt-child>
+      <nuxt-child
+        :show-content="!showMenu"
+        class="pt-4 sm:pt-6 md:pt-8"
+      ></nuxt-child>
     </div>
-    <div v-if="!showMenu" class="md:flex mt-1 pb-4 sm:pb-6 md:pb-8">
-      <div class="hidden md:block w-1/5 mr-1 flex-shrink-0"></div>
-      <footer-menu
-        :pages="footerPages"
-        class="bg-white w-full md:w-4/5 rounded"
-      ></footer-menu>
-    </div>
+    <transition name="fade">
+      <div v-if="!showMenu" class="md:flex mt-1 pb-4 sm:pb-6 md:pb-8">
+        <div class="hidden md:block w-1/5 mr-1 flex-shrink-0"></div>
+        <footer-menu
+          :pages="footerPages"
+          class="bg-white w-full md:w-4/5 rounded"
+        ></footer-menu>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -87,6 +94,15 @@ export default {
 </script>
 
 <style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
 .menu-fade-enter-active,
 .menu-fade-leave-active {
   transition: 0.15s;

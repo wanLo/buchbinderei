@@ -44,11 +44,10 @@ export default {
       type: Object,
       default: () => {},
     },
-  },
-  data() {
-    return {
-      active: true,
-    }
+    active: {
+      type: Boolean,
+      default: false,
+    },
   },
   computed: {
     _page() {
@@ -62,6 +61,9 @@ export default {
         this.active = true
       }, 200)
     },
+  },
+  mounted() {
+    this.active = true
   },
 }
 </script>

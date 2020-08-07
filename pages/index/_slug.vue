@@ -1,6 +1,7 @@
 <template>
   <page-content
     :page="page"
+    :active="showContent"
     class="w-full md:w-4/5 rounded md:ml-8 lg:ml-16"
   ></page-content>
 </template>
@@ -11,6 +12,12 @@ import PageContent from '~/components/PageContent'
 export default {
   components: {
     PageContent,
+  },
+  props: {
+    showContent: {
+      type: Boolean,
+      default: false,
+    },
   },
   async asyncData({ $content, params }) {
     const slug = !params.slug ? 'index' : params.slug
