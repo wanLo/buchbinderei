@@ -1,7 +1,5 @@
 # buchbinderei
 
-![Build](https://github.com/wanLo/buchbinderei/workflows/Node.js%20CI/badge.svg)
-
 ## Build Setup
 
 ```bash
