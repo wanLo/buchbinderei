@@ -3,7 +3,7 @@
     <NuxtLink v-if="showLogo" to="/">
       <picture>
         <source
-          :srcSet="require('~/static/titel.png?webp')"
+          :srcSet="require('~/static/titel.png?webp&inline')"
           type="image/webp"
         />
         <source :srcSet="require('~/static/titel.png')" type="image/png" />

@@ -12,7 +12,7 @@
         <nuxt-link to="/" class="flex-none" @click.native="showMenu = false">
           <picture>
             <source
-              :srcSet="require('~/static/titel.png?webp')"
+              :srcSet="require('~/static/titel.png?webp&inline')"
               type="image/webp"
             />
             <source :srcSet="require('~/static/titel.png')" type="image/png" />
