@@ -4,12 +4,22 @@
       <article v-if="active">
         <picture v-if="_page.image">
           <source
-            :srcSet="require('~/static/' + _page.image + '?webp')"
+            :srcSet="
+              require('~/static/' +
+                _page.image +
+                '?resize&sizes[]=300&sizes[]=600&sizes[]=1000&format=webp')
+                .srcSet
+            "
             type="image/webp"
           />
           <source
-            :srcSet="require('~/static/' + _page.image)"
-            type="image/png"
+            :srcSet="
+              require('~/static/' +
+                _page.image +
+                '?resize&sizes[]=300&sizes[]=600&sizes[]=1000&format=jpg')
+                .srcSet
+            "
+            type="image/jpeg"
           />
           <img
             :src="require('~/static/' + _page.image)"

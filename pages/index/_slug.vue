@@ -39,13 +39,20 @@ export default {
           if (grandchild.tag === 'img') {
             const gprops = grandchild.props
             grandchild.tag = 'picture'
+            const multipleSizesWebP = require('~/static' +
+              gprops.src +
+              '?resize&sizes[]=300&sizes[]=600&sizes[]=1000&format=webp')
+            const multipleSizesJpeg = require('~/static' +
+              gprops.src +
+              '?resize&sizes[]=300&sizes[]=600&sizes[]=1000&format=jpg')
+            gprops.src = multipleSizesJpeg.src
             grandchild.children = [
               {
                 type: 'element',
                 tag: 'source',
                 children: [],
                 props: {
-                  srcset: require('~/static' + gprops.src + '?webp'),
+                  srcset: multipleSizesWebP.srcSet,
                   type: 'image/webp',
                 },
               },
@@ -54,7 +61,7 @@ export default {
                 tag: 'source',
                 children: [],
                 props: {
-                  srcset: require('~/static' + gprops.src),
+                  srcset: multipleSizesJpeg.srcSet,
                   type: 'image/jpeg',
                 },
               },
