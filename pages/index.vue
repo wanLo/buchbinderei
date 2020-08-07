@@ -11,7 +11,7 @@
       <div class="block md:hidden flex mb-1">
         <nuxt-link to="/" class="flex-none" @click.native="showMenu = false">
           <img
-            src="titel.png"
+            src="/titel.png"
             alt="Startseite"
             class="px-4 py-2"
             style="max-height: 5rem;"
@@ -19,7 +19,7 @@
         </nuxt-link>
         <div class="flex-grow"></div>
         <button
-          class="my-auto px-4 flex-none"
+          class="my-auto py-4 px-4 flex-none"
           aria-label="Menü öffnen"
           @click="showMenu = !showMenu"
         >

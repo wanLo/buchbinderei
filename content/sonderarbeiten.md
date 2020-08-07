@@ -14,8 +14,8 @@ Wir verfügen über Erfahrung in der Lederverarbeitung für großformatige **Mö
 
 Unter dem eigenen Label [atelierBUCH](https://atelierbuch.de) entstehen hochwertige Schmuckboxen.
 
-![](kaesten/2.jpg)
-![](kaesten/3.jpg)
-![](kaesten/4.jpg)
-![](kaesten/5.jpg)
-![](kaesten/6.jpg)
+![](/kaesten/2.jpg)
+![](/kaesten/3.jpg)
+![](/kaesten/4.jpg)
+![](/kaesten/5.jpg)
+![](/kaesten/6.jpg)

@@ -20,8 +20,8 @@ Druckservice - Sie senden uns ein PDF - wir drucken und binden wie vereinbart.
 ## Besonderer Lieferservice für Fernstudenten der Hochschule Mittweida:
 Wir liefern Ihre Arbeit termingerecht persönlich bei dem gewünschten Empfänger an der HS Mittweida ab und senden Ihnen die signierte Empfangsbestätigung sofort per Email zu.
 
-![](diplom/2.jpg)
-![](diplom/3.jpg)
-![](diplom/4.jpg)
-![](diplom/5.jpg)
-![](diplom/6.jpg)
+![](/diplom/2.jpg)
+![](/diplom/3.jpg)
+![](/diplom/4.jpg)
+![](/diplom/5.jpg)
+![](/diplom/6.jpg)

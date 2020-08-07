@@ -2,7 +2,7 @@
   <div class="flex flex-col space-y-2 text-gray-900">
     <NuxtLink v-if="showLogo" to="/">
       <img
-        src="titel.png"
+        src="/titel.png"
         alt="Startseite"
         class="px-4 py-2 w-full object-left object-contain rounded"
         style="max-height: 5rem;"
@@ -25,9 +25,9 @@
         $route.params.slug === page.slug ? 'bg-warmgray-light' : 'border-none'
       "
     >
-      <NuxtLink :to="page.slug" @click.native="$emit('close-menu')">
+      <NuxtLink :to="'/' + page.slug" @click.native="$emit('close-menu')">
         <div
-          class="px-4 py-2 break-words hover:text-cd-red transition-colors ease-in-out duration-200"
+          class="px-4 py-2 break-words md:hover:text-cd-red transition-colors ease-in-out duration-200"
         >
           {{ page.shortTitle }}
         </div>

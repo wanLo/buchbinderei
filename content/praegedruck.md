@@ -10,8 +10,8 @@ Die Veredelung von Printprodukten durch Prägungen ist ein langjähriger Schwerp
 
 Wir verfügen über einen **großen Fundus an Prägebeispielen** und beraten Sie gern bei der Auswahl einer Veredelungstechnik und der Umsetzung Ihrer Motive, um für Ihr Produkt die optimale Wirkung zu erreichen. Wir fertigen **Musterprägungen** und testen für unsere Kunden Materialkombinationen im Vorfeld einer Auflagenproduktion. 
 
-![](praegedruck/2.jpg)
-![](praegedruck/3.jpg)
-![](praegedruck/4.jpg)
-![](praegedruck/5.jpg)
-![](praegedruck/6.jpg)
+![](/praegedruck/2.jpg)
+![](/praegedruck/3.jpg)
+![](/praegedruck/4.jpg)
+![](/praegedruck/5.jpg)
+![](/praegedruck/6.jpg)

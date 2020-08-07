@@ -12,8 +12,8 @@ Die **Langlebigkeit** unserer Speisekarten erreichen wir durch eine hochwertige 
 
 Suchen Sie den direkten [Kontakt](/kontakt). Wir freuen uns darauf.
 
-![](speisekarten/2.jpg)
-![](speisekarten/3.jpg)
-![](speisekarten/4.jpg)
-![](speisekarten/5.jpg)
-![](speisekarten/6.jpg)
+![](/speisekarten/2.jpg)
+![](/speisekarten/3.jpg)
+![](/speisekarten/4.jpg)
+![](/speisekarten/5.jpg)
+![](/speisekarten/6.jpg)

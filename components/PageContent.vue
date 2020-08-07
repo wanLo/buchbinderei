@@ -3,7 +3,7 @@
     <article>
       <img
         v-if="_page.image"
-        :src="_page.image"
+        :src="'/' + _page.image"
         alt="Titelbild"
         class="title-picture"
       />

@@ -30,8 +30,8 @@ Montag - Freitag 6:00 bis 16:00 Uhr
 sowie bis 18:00 Uhr nach Vereinbarung  
 24-Stunden-Paketbox
 
-![](kontakt/2.jpg)
-![](kontakt/3.jpg)
-![](kontakt/4.jpg)
-![](kontakt/5.jpg)
-![](kontakt/6.jpg)
+![](/kontakt/2.jpg)
+![](/kontakt/3.jpg)
+![](/kontakt/4.jpg)
+![](/kontakt/5.jpg)
+![](/kontakt/6.jpg)
