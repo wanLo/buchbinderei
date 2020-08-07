@@ -10,11 +10,18 @@
       </div>
       <div class="block md:hidden flex mb-1">
         <nuxt-link to="/" class="flex-none" @click.native="showMenu = false">
-          <img
-            src="/titel.png"
-            alt="Logo der Buchbinderei Meyer"
-            class="px-4 py-2 w-48 h-16 object-left object-contain"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/static/titel.png?webp')"
+              type="image/webp"
+            />
+            <source :srcSet="require('~/static/titel.png')" type="image/png" />
+            <img
+              :src="require('~/static/titel.png')"
+              alt="Logo der Buchbinderei Meyer"
+              class="px-4 py-2 w-48 h-16 object-left object-contain"
+            />
+          </picture>
         </nuxt-link>
         <div class="flex-grow"></div>
         <button

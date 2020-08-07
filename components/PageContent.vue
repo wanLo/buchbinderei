@@ -2,12 +2,21 @@
   <div>
     <transition name="fade">
       <article v-if="active">
-        <img
-          v-if="_page.image"
-          :src="'/' + _page.image"
-          alt="Titelbild"
-          class="title-picture"
-        />
+        <picture v-if="_page.image">
+          <source
+            :srcSet="require('~/static/' + _page.image + '?webp')"
+            type="image/webp"
+          />
+          <source
+            :srcSet="require('~/static/' + _page.image)"
+            type="image/png"
+          />
+          <img
+            :src="require('~/static/' + _page.image)"
+            alt="Titelbild"
+            class="title-picture"
+          />
+        </picture>
         <h1 class="title">
           {{ _page.title }}
         </h1>
@@ -68,11 +77,11 @@ export default {
 
 /* pictures */
 .title-picture,
-.nuxt-content p > img {
+.nuxt-content p > picture > img {
   @apply w-full mb-6 object-center object-cover;
   height: 15rem;
 }
-.nuxt-content p > img {
+.nuxt-content p > picture > img {
   @apply mt-6 bg-warmgray-light;
 }
 
@@ -120,14 +129,14 @@ export default {
 
 @screen sm {
   .title-picture,
-  .nuxt-content p > img {
+  .nuxt-content p > picture > img {
     height: 25rem;
   }
 }
 
 @screen md {
   .title-picture,
-  .nuxt-content p > img {
+  .nuxt-content p > picture > img {
     height: 20rem;
   }
   .title-picture {
@@ -136,7 +145,7 @@ export default {
   .title {
     @apply mb-12 text-4xl;
   }
-  .nuxt-content p > img {
+  .nuxt-content p > picture > img {
     @apply -ml-16;
   }
   .description {
@@ -160,7 +169,7 @@ export default {
 
 @screen lg {
   .title-picture,
-  .nuxt-content p > img {
+  .nuxt-content p > picture > img {
     height: 25rem;
   }
   .title-picture {
@@ -169,7 +178,7 @@ export default {
   .title {
     @apply text-5xl;
   }
-  .nuxt-content p > img {
+  .nuxt-content p > picture > img {
     @apply -ml-32 my-16;
   }
   .description {
@@ -192,7 +201,7 @@ export default {
 
 @screen xl {
   .title-picture,
-  .nuxt-content p > img {
+  .nuxt-content p > picture > img {
     height: 30rem;
   }
   .title-picture {
@@ -201,7 +210,7 @@ export default {
   .title {
     @apply text-6xl;
   }
-  .nuxt-content p > img {
+  .nuxt-content p > picture > img {
     @apply -ml-64 my-16;
   }
   .description {

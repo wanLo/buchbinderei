@@ -36,6 +36,37 @@ export default {
             grandchild.props.class = 'picture-with-description'
             page.body.children[i].children.splice(j + 1, 0, description)
           }
+          if (grandchild.tag === 'img') {
+            const gprops = grandchild.props
+            grandchild.tag = 'picture'
+            grandchild.children = [
+              {
+                type: 'element',
+                tag: 'source',
+                children: [],
+                props: {
+                  srcset: require('~/static' + gprops.src + '?webp'),
+                  type: 'image/webp',
+                },
+              },
+              {
+                type: 'element',
+                tag: 'source',
+                children: [],
+                props: {
+                  srcset: require('~/static' + gprops.src),
+                  type: 'image/jpeg',
+                },
+              },
+              {
+                type: 'element',
+                tag: 'img',
+                children: [],
+                props: gprops,
+              },
+            ]
+            grandchild.props = {}
+          }
         }
       }
     }
