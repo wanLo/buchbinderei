@@ -21,8 +21,8 @@ Wiederherstellen statt ersetzen.
 
 Egal aber ob es sich um eine Reparatur oder eine Restaurierung handelt - wir sind immer bemüht, den **historischen Charme und die Ästhetik Ihres Buches zu erhalten**. 
 
-![](/reparaturen/2.jpg)
-![](/reparaturen/3.jpg)
-![](/reparaturen/4.jpg)
-![](/reparaturen/5.jpg)
-![](/reparaturen/6.jpg)
+![](reparaturen/2.jpg)
+![](reparaturen/3.jpg)
+![](reparaturen/4.jpg)
+![](reparaturen/5.jpg)
+![](reparaturen/6.jpg)

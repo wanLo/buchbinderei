@@ -13,8 +13,8 @@ Wir verbinden die einzelnen Teile oder Seiten Ihres Produktes mit einer Steppnah
 - Akkurate Handnähte für Einzelstücke und kleine Serien
 - Beratung, Entwurf und Musterfertigung
 
-![](/naehte/2.jpg)
-![](/naehte/3.jpg)
-![](/naehte/4.jpg)
-![](/naehte/5.jpg)
-![](/naehte/6.jpg)
+![](naehte/2.jpg)
+![](naehte/3.jpg)
+![](naehte/4.jpg)
+![](naehte/5.jpg)
+![](naehte/6.jpg)

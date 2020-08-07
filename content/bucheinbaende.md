@@ -17,8 +17,8 @@ Zeitschrifteneinbände in Verlagseinbanddecken oder in von uns gefertigte Buchde
 
 > Vom Unikat zur Auflage
 
-![](/einbaende/2.jpg)
-![](/einbaende/3.jpg)
-![](/einbaende/4.jpg)
-![](/einbaende/5.jpg)
-![](/einbaende/6.jpg)
+![](einbaende/2.jpg)
+![](einbaende/3.jpg)
+![](einbaende/4.jpg)
+![](einbaende/5.jpg)
+![](einbaende/6.jpg)
