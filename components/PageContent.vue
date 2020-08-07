@@ -33,6 +33,14 @@ export default {
 </script>
 
 <style>
+.picture-with-description {
+  margin-bottom: 0rem !important;
+}
+
+.description {
+  @apply border-l border-warmgray pl-2 pt-2 text-sm text-gray-400;
+}
+
 .title-picture {
   @apply w-full object-cover mb-6;
 }
@@ -88,6 +96,9 @@ export default {
   .nuxt-content p > img {
     @apply -ml-16;
   }
+  .description {
+    margin-left: -4rem !important;
+  }
   .nuxt-content p,
   .nuxt-content li {
     @apply ml-16;
@@ -114,6 +125,9 @@ export default {
   .nuxt-content p > img {
     @apply -ml-32 my-16;
   }
+  .description {
+    margin-left: -8rem !important;
+  }
   .nuxt-content p,
   .nuxt-content li {
     @apply ml-32;
@@ -138,6 +152,9 @@ export default {
   }
   .nuxt-content p > img {
     @apply -ml-64 my-16;
+  }
+  .description {
+    margin-left: -16rem !important;
   }
   .nuxt-content p,
   .nuxt-content li {

@@ -15,6 +15,30 @@ export default {
   async asyncData({ $content, params }) {
     const slug = !params.slug ? 'index' : params.slug
     const page = await $content('', slug).fetch()
+    for (const i in page.body.children) {
+      if (page.body.children[i].children) {
+        let range = page.body.children[i].children.length
+        for (let j = 0; j < range; j++) {
+          const grandchild = page.body.children[i].children[j]
+          if (grandchild.tag === 'img' && grandchild.props.alt) {
+            range++
+            const description = {
+              type: 'element',
+              tag: 'p',
+              props: { class: 'description' },
+              children: [
+                {
+                  type: 'text',
+                  value: grandchild.props.alt,
+                },
+              ],
+            }
+            grandchild.props.class = 'picture-with-description'
+            page.body.children[i].children.splice(j + 1, 0, description)
+          }
+        }
+      }
+    }
     if (!page.title) page.title = slug.charAt(0).toUpperCase() + slug.slice(1)
     return { page }
   },
