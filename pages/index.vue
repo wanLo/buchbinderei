@@ -12,9 +12,8 @@
         <nuxt-link to="/" class="flex-none" @click.native="showMenu = false">
           <img
             src="/titel.png"
-            alt="Startseite"
-            class="px-4 py-2"
-            style="max-height: 5rem;"
+            alt="Logo der Buchbinderei Meyer"
+            class="px-4 py-2 w-48 h-16 object-left object-contain"
           />
         </nuxt-link>
         <div class="flex-grow"></div>

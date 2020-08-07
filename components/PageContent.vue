@@ -48,6 +48,7 @@ export default {
 </script>
 
 <style>
+/* animations */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s;
@@ -57,24 +58,31 @@ export default {
   opacity: 0;
 }
 
+/* pictures with description */
 .picture-with-description {
   margin-bottom: 0rem !important;
 }
-
 .description {
   @apply border-l border-warmgray pl-2 pt-2 text-sm text-gray-400;
 }
 
-.title-picture {
-  @apply w-full object-cover mb-6;
+/* pictures */
+.title-picture,
+.nuxt-content p > img {
+  @apply w-full mb-6 object-center object-cover;
+  height: 15rem;
 }
+.nuxt-content p > img {
+  @apply mt-6 bg-warmgray-light;
+}
+
+/* title */
 .title {
   @apply mb-6;
   @apply text-3xl text-cd-red uppercase font-light tracking-widest leading-tight;
 }
-.nuxt-content p > img {
-  @apply my-6 w-full;
-}
+
+/* content */
 .nuxt-content p,
 .nuxt-content li {
   @apply break-words;
@@ -110,7 +118,18 @@ export default {
   @apply text-3xl italic font-light text-gray-800;
 }
 
+@screen sm {
+  .title-picture,
+  .nuxt-content p > img {
+    height: 25rem;
+  }
+}
+
 @screen md {
+  .title-picture,
+  .nuxt-content p > img {
+    height: 20rem;
+  }
   .title-picture {
     @apply pr-16 mb-12;
   }
@@ -140,6 +159,10 @@ export default {
 }
 
 @screen lg {
+  .title-picture,
+  .nuxt-content p > img {
+    height: 25rem;
+  }
   .title-picture {
     @apply pr-32;
   }
@@ -168,6 +191,10 @@ export default {
 }
 
 @screen xl {
+  .title-picture,
+  .nuxt-content p > img {
+    height: 30rem;
+  }
   .title-picture {
     @apply pr-64;
   }

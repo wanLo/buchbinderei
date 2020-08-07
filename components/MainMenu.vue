@@ -3,8 +3,8 @@
     <NuxtLink v-if="showLogo" to="/">
       <img
         src="/titel.png"
-        alt="Startseite"
-        class="px-4 py-2 w-full object-left object-contain rounded"
+        alt="Logo der Buchbinderei Meyer"
+        class="px-4 py-2 w-full h-16 lg:h-20 object-left object-contain"
         style="max-height: 5rem;"
       />
     </NuxtLink>
