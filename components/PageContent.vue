@@ -1,17 +1,19 @@
 <template>
   <div>
-    <article>
-      <img
-        v-if="_page.image"
-        :src="'/' + _page.image"
-        alt="Titelbild"
-        class="title-picture"
-      />
-      <h1 class="title">
-        {{ _page.title }}
-      </h1>
-      <nuxt-content :document="_page" />
-    </article>
+    <transition name="fade">
+      <article v-if="active">
+        <img
+          v-if="_page.image"
+          :src="'/' + _page.image"
+          alt="Titelbild"
+          class="title-picture"
+        />
+        <h1 class="title">
+          {{ _page.title }}
+        </h1>
+        <nuxt-content :document="_page" />
+      </article>
+    </transition>
   </div>
 </template>
 
@@ -24,15 +26,37 @@ export default {
       default: () => {},
     },
   },
+  data() {
+    return {
+      active: true,
+    }
+  },
   computed: {
     _page() {
       return this.page
+    },
+  },
+  watch: {
+    page(newVal, oldVal) {
+      this.active = false
+      setTimeout(() => {
+        this.active = true
+      }, 200)
     },
   },
 }
 </script>
 
 <style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
 .picture-with-description {
   margin-bottom: 0rem !important;
 }
