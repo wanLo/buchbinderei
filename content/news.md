@@ -1,6 +1,6 @@
 ---
 order: 1
-description: Neuigkeiten aus der Buchbinderei Heinz Meyer GmbH
+description: News aus der Buchbinderei Heinz Meyer GmbH
 image: news/1.jpg
 published: true
 ---
