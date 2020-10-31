@@ -14,8 +14,6 @@ image: einbaende/1.jpg
 - Buchherstellung aus einer Hand - vom Entwurf über Druck und Proof bis zum gebundenen, versandfertigen Produkt
 - Beratung, Entwurf und Musterfertigung
 
-> Vom Unikat zur Auflage
-
 ![](einbaende/2.jpg)
 ![](einbaende/3.jpg)
 ![](einbaende/4.jpg)

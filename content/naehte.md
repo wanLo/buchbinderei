@@ -1,8 +1,7 @@
 ---
 menu: main
 order: 5
-title: Steppnähte und Ziernähte
-shortTitle: Nähte
+shortTitle: Steppnähte und Ziernähte
 image: naehte/1.jpg
 ---
 Wir verbinden die einzelnen Teile oder Seiten Ihres Produktes mit einer Steppnaht.
