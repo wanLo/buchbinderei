@@ -91,7 +91,6 @@ export default {
 .title-picture,
 .nuxt-content p > picture > img {
   @apply w-full mb-6 object-center object-cover;
-  height: 15rem;
 }
 .nuxt-content p > picture > img {
   @apply mt-6 bg-warmgray-light;
@@ -139,18 +138,7 @@ export default {
   @apply text-3xl italic font-light text-gray-800;
 }
 
-@screen sm {
-  .title-picture,
-  .nuxt-content p > picture > img {
-    height: 25rem;
-  }
-}
-
 @screen md {
-  .title-picture,
-  .nuxt-content p > picture > img {
-    height: 20rem;
-  }
   .title-picture {
     @apply pr-16 mb-12;
   }
@@ -180,10 +168,6 @@ export default {
 }
 
 @screen lg {
-  .title-picture,
-  .nuxt-content p > picture > img {
-    height: 25rem;
-  }
   .title-picture {
     @apply pr-32;
   }
@@ -212,10 +196,6 @@ export default {
 }
 
 @screen xl {
-  .title-picture,
-  .nuxt-content p > picture > img {
-    height: 30rem;
-  }
   .title-picture {
     @apply pr-64;
   }
