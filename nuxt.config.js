@@ -75,7 +75,27 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxtjs/sitemap'],
+  sitemap: {
+    hostname: process.env.BASE_URL || 'https://buchbinderei-meyer.de',
+    routes: async () => {
+      const { $content } = require('@nuxt/content')
+
+      const mainMenuPages = await $content('')
+        .where({ menu: 'main' })
+        .sortBy('order', 'asc')
+        .skip(1) // skip index and add / below
+        .fetch()
+      const footerPages = await $content('')
+        .where({ menu: 'footer' })
+        .sortBy('order', 'asc')
+        .fetch()
+
+      return ['/']
+        .concat(...mainMenuPages.map((m) => m.path))
+        .concat(...footerPages.map((f) => f.path))
+    },
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
