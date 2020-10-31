@@ -1,7 +1,7 @@
 ---
 menu: main
 order: 4
-shortTitle: Stanzungen
+shortTitle: Register-Stanzungen
 image: register/1.jpg
 ---
  Wir stanzen Register sowohl am Einzelblatt als auch an der fertigen Broschüre.

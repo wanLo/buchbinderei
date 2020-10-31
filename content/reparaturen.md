@@ -12,7 +12,7 @@ Wo es nötig ist lösen wir vorsichtig die Heftung, verstärken lose Seiten und 
 
 Bei einer Restaurierung geht es darum, das Original und die damit verbundenen ideellen oder materiellen Werte zu erhalten. Beim Restaurieren liegt die Kunst in der Zurückhaltung. Es geht um Erhalten und Stabilisieren, nicht um Erneuern.
 
-## Wichtige Grundsätze in der Restaurierung sind:
+**Wichtige Grundsätze in der Restaurierung sind:**
 
 So viel wie nötig, so wenig wie möglich.
 Immer neu unter alt, statt neu auf alt.

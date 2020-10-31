@@ -1,7 +1,7 @@
 ---
 menu: main
 order: -9999
-title: Buchbinderei Heinz Meyer GmbH
+title: Buchbinderei Meyer
 shortTitle: Startseite
 image: start/2.jpg
 description: >-

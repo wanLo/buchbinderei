@@ -5,8 +5,7 @@ title: Bucheinbände
 published: true
 image: einbaende/1.jpg
 ---
-Zeitschrifteneinbände in Verlagseinbanddecken oder in von uns gefertigte Buchdecken mit Prägung auf Rücken und Vorderdeckel
-
+- Zeitschrifteneinbände in Verlagseinbanddecken oder in von uns gefertigte Buchdecken mit Prägung auf Rücken und Vorderdeckel
 - Beschaffungsservice für fehlenden Zeitschriften und Verlagseinbanddecken
 - Hardcover, Softcover und Broschuren
 - Vorzugsausgaben in Leder, Pergament, Gewebe, Papier etc.
