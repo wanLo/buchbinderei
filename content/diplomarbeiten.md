@@ -1,7 +1,7 @@
 ---
 menu: main
 order: 9
-image: diplom/1.jpg
+image: diplom/1_gross.jpeg
 ---
 ## Solide Einbände
 
@@ -20,8 +20,8 @@ image: diplom/1.jpg
 ## Besonderer Lieferservice für Fernstudenten der Hochschule Mittweida:
 Wir liefern Ihre Arbeit termingerecht persönlich bei dem gewünschten Empfänger an der HS Mittweida ab und senden Ihnen die signierte Empfangsbestätigung sofort per Email zu.
 
-![](diplom/2.jpg)
-![](diplom/3.jpg)
-![](diplom/4.jpg)
-![](diplom/5.jpg)
-![](diplom/6.jpg)
+![](diplom/2_gross.jpeg)
+![](diplom/3_gross.jpeg)
+![](diplom/4_gross.jpeg)
+![](diplom/5_gross.jpeg)
+![](diplom/6_gross.jpeg)

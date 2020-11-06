@@ -3,7 +3,7 @@ menu: main
 order: 2
 title: Bucheinbände
 published: true
-image: einbaende/1.jpg
+image: einbaende/1_gross.jpeg
 ---
 - Zeitschrifteneinbände in Verlagseinbanddecken oder in von uns gefertigte Buchdecken mit Prägung auf Rücken und Vorderdeckel
 - Beschaffungsservice für fehlenden Zeitschriften und Verlagseinbanddecken
@@ -14,8 +14,8 @@ image: einbaende/1.jpg
 - Buchherstellung aus einer Hand - vom Entwurf über Druck und Proof bis zum gebundenen, versandfertigen Produkt
 - Beratung, Entwurf und Musterfertigung
 
-![](einbaende/2.jpg)
-![](einbaende/3.jpg)
-![](einbaende/4.jpg)
-![](einbaende/5.jpg)
-![](einbaende/6.jpg)
+![](einbaende/2_gross.jpeg)
+![](einbaende/3_gross.jpeg)
+![](einbaende/4_gross.jpeg)
+![](einbaende/5_gross.jpeg)
+![](einbaende/6_gross.jpeg)

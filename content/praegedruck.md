@@ -2,7 +2,7 @@
 menu: main
 order: 3
 title: Prägedruck
-image: praegedruck/1.jpg
+image: praegedruck/DSC_0028.jpeg
 ---
 Beim Prägen werden Druckerzeugnisse wie Briefbögen, Visitenkarten, Umschläge, Verpackungen aber auch Bucheinbände, Buchschuber und Kästen mit einem zusätzlichen Motiv oder Schriftzug versehen oder grafische Details besonders hervorgehoben. Wir fertigen **Heißfolienprägungen, Schnittreliefprägungen und Blindreliefprägungen** auf Papier, Karton, Pappe, Leder, Gewebe, Kunststoff, cellophanierte Drucke oder Holzoberflächen. Mit speziellen Diffraktionfolien führen wir **Sicherheitsprägungen** auf Eintrittskarten und Einladungen aus.
 
@@ -10,8 +10,8 @@ Die Veredelung von Printprodukten durch Prägungen ist ein langjähriger Schwerp
 
 Wir verfügen über einen **großen Fundus an Prägebeispielen** und beraten Sie gern bei der Auswahl einer Veredelungstechnik und der Umsetzung Ihrer Motive, um für Ihr Produkt die optimale Wirkung zu erreichen. Wir fertigen **Musterprägungen** und testen für unsere Kunden Materialkombinationen im Vorfeld einer Auflagenproduktion. 
 
-![](praegedruck/2.jpg)
-![](praegedruck/3.jpg)
-![](praegedruck/4.jpg)
-![](praegedruck/5.jpg)
-![](praegedruck/6.jpg)
+![](praegedruck/DSC_0047.jpeg)
+![](praegedruck/IMG_4620.jpeg)
+![](praegedruck/DSC_0026.jpeg)
+![](praegedruck/DSC_0050.jpeg)
+![](praegedruck/IMG_0401.jpeg)

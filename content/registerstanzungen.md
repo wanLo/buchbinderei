@@ -2,7 +2,7 @@
 menu: main
 order: 4
 shortTitle: Registerstanzungen
-image: register/1.jpg
+image: register/IMG_2617.jpeg
 ---
  Wir stanzen Register sowohl am Einzelblatt als auch an der fertigen Broschüre.
 
@@ -12,8 +12,8 @@ image: register/1.jpg
 - Daumenregister
 - Stanzungen mit individuellen Stanzmotiven in Umschläge, Karten, fertige Buchdeckel etc.
 
-![](register/2.jpg)
-![](register/3.jpg)
-![](register/4.jpg)
-![](register/5.jpg)
-![](register/6.jpg)
+![](register/IMG_4603.jpeg)
+![](register/IMG_4599.jpeg)
+![](register/IMG_4601.jpeg)
+![](register/IMG_4605.jpeg)
+![](register/IMG_4595.jpeg)

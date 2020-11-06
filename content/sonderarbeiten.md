@@ -4,7 +4,7 @@ order: 8
 title: Sonderarbeiten des Buchbinders
 shortTitle: Kästen und Verpackungen
 published: true
-image: kaesten/1.jpg
+image: kaesten/IMG_4005.jpeg
 ---
 Die Herstellung von **Kästen, Grafikkassetten und Schmuckschatullen** gehört genauso wie die Fertigung von **Buchschubern**, einfachen **Schachteln** und hochwertigen **Verpackungen** zu den Sonderarbeiten des Buchbinders.
 
@@ -14,8 +14,8 @@ Wir verfügen über Erfahrung in der Lederverarbeitung für großformatige **Mö
 
 Unter dem eigenen Label atelierBUCH entstehen hochwertige Schmuckboxen.
 
-![](kaesten/2.jpg)
-![](kaesten/3.jpg)
-![](kaesten/4.jpg)
-![](kaesten/5.jpg)
-![](kaesten/6.jpg)
+![](kaesten/IMG_4088.jpeg)
+![](kaesten/IMG_4067.jpeg)
+![](kaesten/IMG_3916.jpeg)
+![](kaesten/IMG_3919.jpeg)
+![](kaesten/IMG_2532.jpeg)

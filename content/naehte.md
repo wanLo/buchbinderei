@@ -14,6 +14,6 @@ Wir verbinden die einzelnen Teile oder Seiten Ihres Produktes mit einer Steppnah
 
 ![](naehte/2.jpg)
 ![](naehte/3.jpg)
-![](naehte/4.jpg)
-![](naehte/5.jpg)
-![](naehte/6.jpg)
+![](naehte/IMG_3678.jpeg)
+![](naehte/DSC_0010.jpeg)
+![](naehte/RZ_BM_Flyer_HF_Buchmesse_Seite_1.jpeg)
