@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto min-h-screen flex flex-col px-2">
+  <div class="container mx-auto min-h-screen flex flex-col sm:px-2">
     <div class="md:flex flex-grow">
       <div class="hidden md:block w-1/5 mr-1 flex-shrink-0">
         <main-menu

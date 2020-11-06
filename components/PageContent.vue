@@ -98,36 +98,35 @@ export default {
 
 /* title */
 .title {
-  @apply mb-6;
+  @apply mb-6 mx-4;
   @apply text-3xl text-cd-red uppercase font-light tracking-widest leading-tight;
 }
 
 /* content */
 .nuxt-content p,
 .nuxt-content li {
-  @apply break-words;
-  @apply text-gray-900;
+  @apply break-words text-gray-900;
 }
 .nuxt-content p {
-  @apply mb-6;
+  @apply mb-6 mx-4;
 }
 .nuxt-content a {
   @apply text-cd-red;
 }
 .nuxt-content h1 {
-  @apply text-3xl font-bold mb-6;
+  @apply text-3xl font-bold mb-6 mx-4;
   @apply text-gray-800;
 }
 .nuxt-content h2 {
-  @apply text-lg font-bold mb-6 mt-12;
+  @apply text-lg font-bold mb-6 mt-12 mx-4;
   @apply text-gray-800;
 }
 .nuxt-content ul {
-  @apply mb-6;
+  @apply mb-6 mx-4;
   @apply list-disc pl-4;
 }
 .nuxt-content ol {
-  @apply mb-6;
+  @apply mb-6 mx-4;
   @apply list-decimal pl-4;
 }
 .nuxt-content li {
@@ -138,12 +137,16 @@ export default {
   @apply text-3xl italic font-light text-gray-800;
 }
 
+.description {
+  margin-left: 0rem !important;
+}
+
 @screen md {
   .title-picture {
     @apply pr-16 mb-12;
   }
   .title {
-    @apply mb-12 text-4xl;
+    @apply mx-0 mb-12 text-4xl;
   }
   .nuxt-content p > picture > img {
     @apply -ml-16;
@@ -153,13 +156,17 @@ export default {
   }
   .nuxt-content p,
   .nuxt-content li {
-    @apply ml-16;
+    @apply ml-16 mr-0;
+  }
+  .nuxt-content ul,
+  .nuxt-content ol {
+    @apply mx-0;
   }
   .nuxt-content h1 {
-    @apply text-4xl;
+    @apply text-4xl mx-0;
   }
   .nuxt-content h2 {
-    @apply text-xl pl-12;
+    @apply text-xl pl-12 mx-0;
   }
   .nuxt-content blockquote > p {
     @apply ml-0 my-12;
