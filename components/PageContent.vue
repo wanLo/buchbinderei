@@ -93,7 +93,7 @@ export default {
   @apply w-full mb-6 object-center object-cover;
 }
 .nuxt-content p > picture > img {
-  @apply mt-6 bg-warmgray-light;
+  @apply mt-6;
 }
 
 /* title */

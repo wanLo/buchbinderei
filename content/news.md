@@ -8,6 +8,7 @@ title: News
 shortTitle: News
 ---
 ## Final Bid Book Chemnitz ECOC 2025
+
 September 2020
 
 Wir fertigen den Einband für das finale Bewerbungsbuch der Stadt Chemnitz um den Titel "Europäische Kulturhauptstadt 2025".

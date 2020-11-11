@@ -54,7 +54,7 @@
         <div class="hidden md:block w-1/5 mr-1 flex-shrink-0"></div>
         <footer-menu
           :pages="footerPages"
-          class="bg-white w-full md:w-4/5 rounded"
+          class="w-full md:w-4/5 rounded"
         ></footer-menu>
       </div>
     </transition>
