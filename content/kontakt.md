@@ -5,8 +5,6 @@ order: 11
 
 ![Vorhaben im Rahmen der LEADER-Entwicklungsstrategie](kontakt/1.jpg)
 
-Test
-
 ## Unsere Vorhaben
 
 Qualifizierung und energetische Sanierung vorhandener Werkstatträume sowie Qualifizierung der technischen Ausstattung der Buchbinderei Heinz Meyer GmbH zur Erweiterung des Portfolios und der damit verbundenen Sicherung von Arbeitsplätzen
