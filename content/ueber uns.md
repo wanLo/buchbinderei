@@ -1,6 +1,7 @@
 ---
 menu: main
 order: 11
+title: Über uns
 ---
 
 ## Über uns
