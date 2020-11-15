@@ -13,7 +13,5 @@ Wir sind ein Handwerks-Meisterbetrieb und seit der Gründung durch Buchbinder­m
 Mit einem umfangreichen Maschinen­park führt unser Team qualitätvolle, vielseitige Arbeiten aus. Wir pflegen alte Buchbinde­techniken genauso wie wir die Auseinander­setzung mit innovativen Materialien und Technologien am Buch suchen. Wir bemühen uns mit Leidenschaft den individuellen Wünschen unserer Kunden gerecht zu werden.
 
 ![](start/wort-bildmarke.png)
-![Bucheinband mit Gewebebezug](start/3.jpg)
-![Kasten für ein Schachspiel](start/4.jpg)
-![](start/5.jpg)
-![](start/6.jpg)
+![](kontakt/2.jpg)
+
