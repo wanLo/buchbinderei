@@ -3,7 +3,7 @@ menu: main
 order: -9999
 title: Buchbinderei Meyer
 shortTitle: Startseite
-image: start/2.jpg
+image: news/2025_quer.png
 description: >-
   Ihre Buchbinderei in Oberlichtenau (Chemnitz) - Bucheinbände, Prägedruck,
   Registerstanzungen, Steppnähte & Ziernähte, Mappen & Ordner, Speisekarten,
