@@ -1,6 +1,6 @@
 ---
 menu: main
-order: 11
+order: 12
 ---
 
 ![Vorhaben im Rahmen der LEADER-Entwicklungsstrategie](kontakt/1.jpg)
