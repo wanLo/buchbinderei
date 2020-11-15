@@ -1,7 +1,7 @@
 ---
 menu: main
 order: -9999
-title: Buchbinderei Meyer
+title: Wir leben Handwerk
 shortTitle: Startseite
 image: news/IMG_6484.jpeg
 description: >-
@@ -10,7 +10,7 @@ description: >-
   Kästen & Verpackungen, Diplomarbeiten, Buchreparaturen & Restaurierungen
 published: true
 ---
-Wir leben Handwerk und verbinden es mit Gestaltung - mit Offenheit, Neugier und Einfühlungsvermögen. Aus Leidenschaft.
+und verbinden es mit Gestaltung - mit Offenheit, Neugier und Einfühlungsvermögen. Aus Leidenschaft.
 
 ![](start/wort-bildmarke.png)
 ![Bucheinband mit Gewebebezug](start/3.jpg)
