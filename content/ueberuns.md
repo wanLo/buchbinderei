@@ -3,7 +3,7 @@ menu: main
 order: 11
 title: Über uns
 published: true
-image: start/wort-bildmarke.png
+image: kontakt/3.jpg
 ---
 
 Wir sind ein Handwerks-Meisterbetrieb und seit der Gründung durch Buchbinder­meister Heinz Meyer im Jahr 1964 in der Buchbinder­innung Chemnitz (jetzt Buchbinder-Landesinnung Sachsen) verankert. 1989 beendete Tochter [Cornelia Ahnert](start/Vita%20C.B.Ahnert_2018.pdf) ihr Studium an der Burg Giebichen­stein Hochschule für Kunst und Design Halle im Fach­bereich Buch erfolgreich mit Diplom. Cornelia Ahnert arbeitete ab 1990 in ihrer frei­beruflichen Werkstatt atelierBUCH zunächst in Chemnitz.
