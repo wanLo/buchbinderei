@@ -18,4 +18,4 @@ Wir fertigen den Einband für das finale Bewerbungsbuch der Stadt Chemnitz um de
 ![Die fertig bezogenen Clipboards](news/IMG_6438.jpeg)
 ![Clipboard mit Siebdruck](news/IMG_6439.jpeg)
 ![Titelprägung](news/DSC_0087.jpeg)
-![Das Prägewerkzeug](news/IMG_6427.jpeg)
+![Prägewerkzeug](news/IMG_6427.jpeg)
