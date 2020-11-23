@@ -27,7 +27,7 @@ USt-IdNr: DE 262 287 947
 
 ## Öffnungszeiten
 
-Montag - Freitag 6:00 bis 16:00 Uhr  
+Montag - Freitag 7:00 bis 16:00 Uhr  
 sowie bis 18:00 Uhr nach Vereinbarung  
 24-Stunden-Paketbox
 
