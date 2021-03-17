@@ -10,7 +10,7 @@ description: >-
   Kästen & Verpackungen, Diplomarbeiten, Buchreparaturen & Restaurierungen
 published: true
 ---
-und verbinden es mit Gestaltung - mit Offenheit, Neugier und Einfühlungsvermögen. Aus Leidenschaft.
+Und verbinden es mit Gestaltung - mit Offenheit, Neugier und Einfühlungsvermögen. Aus Leidenschaft.
 
 ![](start/wort-bildmarke.png)
 ![Bucheinband mit Gewebebezug](start/3.jpg)
