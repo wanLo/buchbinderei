@@ -111,7 +111,8 @@ export default {
   @apply mb-6 mx-4;
 }
 .nuxt-content a {
-  @apply text-cd-red;
+  //@apply text-cd-red;
+  @apply text-gray-800;
 }
 .nuxt-content h1 {
   @apply text-3xl font-bold mb-6 mx-4;
