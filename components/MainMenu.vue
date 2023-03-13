@@ -1,18 +1,12 @@
 <template>
   <div class="flex flex-col space-y-2 text-gray-900">
     <NuxtLink v-if="showLogo" to="/">
-      <picture>
-        <source
-          :srcSet="require('~/static/titel.png?webp&inline')"
-          type="image/webp"
-        />
-        <source :srcSet="require('~/static/titel.png')" type="image/png" />
-        <img
-          :src="require('~/static/titel.png')"
-          alt="Logo der Buchbinderei Meyer"
-          class="px-4 py-2 w-full h-16 lg:h-20 object-left object-contain"
-        />
-      </picture>
+      <nuxt-picture
+        src="titel.png"
+        alt="Logo der Buchbinderei Meyer"
+        :imgAttrs="{class: 'px-4 py-2 w-full h-16 lg:h-20 object-left object-contain'}"
+      >
+      </nuxt-picture>
     </NuxtLink>
     <NuxtLink
       v-else

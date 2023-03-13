@@ -65,17 +65,17 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss',
+    // '@nuxtjs/tailwindcss',
     // https://github.com/juliomrqz/nuxt-optimized-images
-    '@aceforth/nuxt-optimized-images',
+    //'@aceforth/nuxt-optimized-images',
   ],
-  optimizedImages: {
-    optimizeImages: true,
-  },
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', '@nuxtjs/sitemap'],
+  modules: ['@nuxt/content', '@nuxtjs/sitemap', '@nuxt/image', '@nuxtjs/tailwindcss'],
+  tailwindcss: {
+    cssPath: '~/assets/css/tailwind.css',
+  },
   sitemap: {
     hostname: process.env.BASE_URL || 'https://buchbinderei-meyer.de',
     routes: async () => {

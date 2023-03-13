@@ -2,31 +2,13 @@
   <div>
     <transition name="fade">
       <article v-if="active">
-        <picture v-if="_page.image">
-          <source
-            :srcSet="
-              require('~/static/' +
-                _page.image +
-                '?resize&sizes[]=300&sizes[]=600&sizes[]=1000&format=webp')
-                .srcSet
-            "
-            type="image/webp"
-          />
-          <source
-            :srcSet="
-              require('~/static/' +
-                _page.image +
-                '?resize&sizes[]=300&sizes[]=600&sizes[]=1000&format=jpg')
-                .srcSet
-            "
-            type="image/jpeg"
-          />
-          <img
-            :src="require('~/static/' + _page.image)"
-            alt="Titelbild"
-            class="title-picture"
-          />
-        </picture>
+        <nuxt-picture
+          v-if="_page.image"
+          :src="_page.image"
+          sizes="md:100vw lg:50vw"
+          :imgAttrs="{class: 'title-picture'}"
+        >
+        </nuxt-picture>
         <h1 class="title">
           {{ _page.title }}
         </h1>
@@ -68,7 +50,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="postcss">
 /* animations */
 .fade-enter-active,
 .fade-leave-active {

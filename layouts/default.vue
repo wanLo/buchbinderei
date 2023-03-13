@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="postcss">
 html {
   @apply bg-warmwhite;
 }

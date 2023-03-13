@@ -8,18 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        warmgray: {
-          light: '#efefef',
-          default: '#e1e1e1',
-          dark: '#a1a1a1',
-          darker: '#616161',
+        'warmgray': {
+          'light': '#efefef',
+          DEFAULT: '#e1e1e1',
+          'dark': '#a1a1a1',
+          'darker': '#616161',
         },
-        warmwhite: {
-          default: '#fdfdfb',
+        'warmwhite': {
+          DEFAULT: '#fdfdfb',
         },
-        cd: {
-          red: '#d9183b',
-          darkred: '#99112A',
+        'cd': {
+          'red': '#d9183b',
+          'darkred': '#99112A',
         },
       },
     },
